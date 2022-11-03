@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+button {
+  margin-top: 20px;
+}
+
 /*Botoes*/
 .amarelo {
   padding: 8px 16px;
@@ -98,7 +102,7 @@ body * {
 }
 
 header {
-  margin-bottom: 63px;
+  margin-bottom: 5px;
   text-align: center;
 }
 
