@@ -21,6 +21,21 @@ function createCard(date, day, games) {
 `;
 }
 
+//Botão para deixar amarelo
+document.getElementById("btnAmarelo").addEventListener("click", function () {
+  document.querySelector("body").setAttribute("class", "yellow");
+});
+
+//Botão para deixar azul
+document.getElementById("btnAzul").addEventListener("click", function () {
+  document.querySelector("body").setAttribute("class", "blue");
+});
+
+//Botão para deixar verde
+document.getElementById("btnVerde").addEventListener("click", function () {
+  document.querySelector("body").setAttribute("class", "green ");
+});
+
 document.querySelector("#cards").innerHTML =
   //Primeira Rodada
   createCard(

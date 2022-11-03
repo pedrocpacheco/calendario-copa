@@ -4,8 +4,57 @@
   box-sizing: border-box;
 }
 
+/*Botoes*/
+.amarelo {
+  padding: 8px 16px;
+  border: 1px solid #f7dd43;
+  border-radius: 6px;
+
+  width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 53px;
+
+  background-color: #1d1c19;
+
+  color: #f7dd43;
+}
+.azul {
+  padding: 8px 16px;
+  border: 1px solid #338af3;
+  border-radius: 6px;
+
+  width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 53px;
+
+  background-color: #1d1c19;
+
+  color: #338af3;
+}
+
+.verde {
+  padding: 8px 16px;
+  border: 1px solid #047c3f;
+  border-radius: 6px;
+
+  width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 53px;
+
+  background-color: #1d1c19;
+
+  color: #047c3f;
+}
+
 /*Colocando Cores*/
 :root {
+  --card-title-border-color: #746615;
+  --card-color-primary: #f7dd43;
+  --card-bg-color: #1d1c19;
+  --bg: url(./assets/bg-yellow.svg);
+}
+
+body.yellow {
   --card-title-border-color: #746615;
   --card-color-primary: #f7dd43;
   --card-bg-color: #1d1c19;
