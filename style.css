@@ -151,9 +151,10 @@ header {
   }
 }
 
-@media (min-width: 700px) {
-  #cards {
-    flex-direction: row;
-    flex-wrap: wrap;
+@media (min-width: 1024px) {
+  .wrapper {
+    display: flex;
+    gap: 3.2rem;
+    justify-content: center;
   }
 }
