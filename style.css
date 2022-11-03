@@ -33,9 +33,9 @@ ul {
 body {
   background-color: #121214;
   background-image: var(--bg);
-  background-position: top center;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 115%;
 }
 
 body * {
@@ -55,7 +55,7 @@ header {
 
 #cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 
   flex-direction: row;
   align-items: flex-start;
