@@ -1,11 +1,3 @@
-# CS50-FINAL PROJECT: WORLD CUP CALENDER
-
-#### Video Demo: <https://youtu.be/K6X5rOcA0DU>
-
-#### Description: My final project is a website that shows the schedule of the games of the group stage of the world cup 22.
-
-### Assets
-
 The Assets folder is a folder that contains all the images I need to make my website.
 
 I divided the images into types:
