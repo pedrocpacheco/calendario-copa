@@ -1,3 +1,4 @@
+//Função para criar jogos
 function creategame(player1, hour, player2) {
   return `
     <li>
@@ -9,6 +10,8 @@ function creategame(player1, hour, player2) {
 }
 
 let delay = -0.3;
+
+//Função para criar cartões
 function createCard(date, day, games) {
   delay = delay + 0.3;
   return `
